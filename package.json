@@ -1,0 +1,31 @@
+{
+  "name": "wx-req",
+  "version": "0.1.1",
+  "description": "微信请求库(Promise调用),使用方法参考axios",
+  "homepage": "https://github.com/a951055/wx-req",
+  "author": "Halo",
+  "contributors": [
+    "Halo <1654403734@qq.com>"
+  ],
+  "repository": "https://github.com/a951055/wx-req",
+  "main": "./dist/index.js",
+  "typings": "./typings/index.d.ts",
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {
+    "clean": "del /s /q dist & del /s /q typings",
+    "build": "yarn clean && tsc",
+    "commit": "yarn build && yarn publish"
+  },
+  "files": [
+    "*"
+  ],
+  "miniprogram": "dist/",
+  "keywords": [
+    "miniprogram",
+    "request",
+    "axios",
+    "rqeuest promise"
+  ]
+}
