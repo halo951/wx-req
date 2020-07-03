@@ -1,6 +1,6 @@
 {
   "name": "wx-req",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "微信请求库(Promise调用),使用方法参考axios",
   "homepage": "https://github.com/a951055/wx-req",
   "author": "Halo",
