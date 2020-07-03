@@ -237,7 +237,7 @@ export class Request {
         }
       });
       // 监听 headers 变化
-      task.onHeadersReceived(() => {
+      task?.onHeadersReceived?.(() => {
         // 当检查到 about() 状态,中断请求
         if (this.checkAbout(options.config, reject)) return task.abort();
       });

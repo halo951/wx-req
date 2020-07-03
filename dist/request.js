@@ -260,6 +260,7 @@ var Request = /** @class */ (function () {
     Request.prototype.sendRequest = function (options) {
         var _this = this;
         return new Promise(function (resolve, reject) {
+            var _a;
             var task = wx.request({
                 url: options.url,
                 data: options.data,
@@ -349,7 +350,7 @@ var Request = /** @class */ (function () {
                 }); }
             });
             // 监听 headers 变化
-            task.onHeadersReceived(function () {
+            (_a = task === null || task === void 0 ? void 0 : task.onHeadersReceived) === null || _a === void 0 ? void 0 : _a.call(task, function () {
                 // 当检查到 about() 状态,中断请求
                 if (_this.checkAbout(options.config, reject))
                     return task.abort();
