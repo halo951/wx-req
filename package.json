@@ -1,7 +1,7 @@
 {
   "name": "wx-req",
-  "version": "1.0.4",
-  "description": "微信请求库(Promise调用),使用方法参考axios",
+  "version": "1.0.5",
+  "description": "axios 小程序端实现,支持头条,微信,qq小程序调用",
   "homepage": "https://github.com/a951055/wx-req",
   "author": "Halo",
   "contributors": [
@@ -24,7 +24,9 @@
   "miniprogram": "dist/",
   "keywords": [
     "miniprogram",
-    "request",
+    "wx",
+    "tt",
+    "qq",
     "axios",
     "rqeuest promise"
   ]
