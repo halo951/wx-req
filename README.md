@@ -1,5 +1,8 @@
 ### 微信 request 请求封装
 
+> 这是一个已经废弃的项目, 如果你有在小程序环境下使用通用请求库的需求, 建议使用 [axios](https://www.npmjs.com/package/axios) + [axios-plugins](https://www.npmjs.com/package/axios-plugins) 来满足使用需要.
+> axios-plugins 提供了一个 `mp()` 的插件, 可以用来在不同的小程序环境下, 使用 `axios` 作为项目请求工具的需要.
+
 ## 1. 支持功能
 
 > 参考 axios 实现, 使用方式上跟 axios 差不多.
